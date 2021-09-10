@@ -23,9 +23,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         nombredelalista2 = (ArrayList<VectorComidas> ) getIntent().getSerializableExtra("listaComidas");
 
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.listaComidas, nombredelalista2.get() );
 
-        lv.setAdapter(arrayAdapter);
     }
 
 
